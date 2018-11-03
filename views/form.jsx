@@ -1,6 +1,6 @@
 const React = require("react");
 
-const addBook = props => (
+const Form = props => (
   <form>
     <div className="form-group">
       <label htmlFor="book-name">Book Title</label>
@@ -36,4 +36,4 @@ const addBook = props => (
   </form>
 );
 
-module.exports = addBook;
+module.exports = Form;
