@@ -1,5 +1,5 @@
 const React = require('react')
-// const Form = require('./form')
+const Form = require('./form')
 
 const Page = () => (
   <html lang="en">
@@ -38,7 +38,7 @@ const Page = () => (
               </button>
             </a>
           </div>
-          
+          <Form />
         </div>
       </div>
       <script src="/index.js" />
